@@ -34,7 +34,7 @@ This API doesn't require any authentication right now
         `PUT json with cluster, name(machine name)`
      - Delete machines by tags <br>
         
-        `PUT json with tags<br>`
+        `PUT json with tags`
  
  ## Examples
 
