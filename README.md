@@ -30,9 +30,11 @@ This API doesn't require any authentication right now
  ## Examples
 
 Create Cluster<br>
+
 `curl --header "Content-Type: application/json"   --request POST   --data '{"name":"xyz","region": "ghjhg"}'   http://localhost:5000/api/manageClusters`
 
-Run this bash script to demo all methods: <br>
+Run this bash script to demo all methods <br>
+
    ` . project/test.sh `
 
 
