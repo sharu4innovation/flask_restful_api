@@ -8,8 +8,7 @@ This API doesn't require any authentication right now
 
 ### QuickStart
 
-- Python3:<br>
-     https://realpython.com/installing-python/
+- [Python3:<br>](https://realpython.com/installing-python/)
 
 - `git clone https://github.com/sharu4innovation/flask_restful_api.git`
 - RUN the API <br>
