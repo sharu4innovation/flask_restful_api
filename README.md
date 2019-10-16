@@ -14,7 +14,7 @@ This API doesn't require any authentication right now
 - `git clone https://github.com/sharu4innovation/flask_restful_api.git`
 - RUN the API <br>
       
-      `python3 project/run.py`
+      python3 project/run.py
 
 ## End Points
 - http://localhost:5000/api/ + 
@@ -29,10 +29,12 @@ This API doesn't require any authentication right now
  
  ## Examples
 
-Create Cluster
+Create Cluster<br>
 `curl --header "Content-Type: application/json"   --request POST   --data '{"name":"xyz","region": "ghjhg"}'   http://localhost:5000/api/manageClusters`
 
-Run this bash script to demo all methods
+Run this bash script to demo all methods: <br>
+   ` . project/test.sh `
+
 
 
 
