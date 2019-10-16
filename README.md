@@ -8,10 +8,37 @@ This API doesn't require any authentication right now
 
 ### QuickStart
 
-- Python3:https://realpython.com/installing-python/
-- git clone https://github.com/sharu4innovation/flask_restful_api.git
+- Python3:<br>
+     https://realpython.com/installing-python/
+
+- `git clone https://github.com/sharu4innovation/flask_restful_api.git`
+- RUN the API <br>
+      
+      `python3 project/run.py`
 
 ## End Points
+- http://localhost:5000/api/ + 
+   - /manageClusters
+     - Add clusters: POST json with name, region
+     - Delete cluster PUT json with name
+   - /manageMachines
+     - Add machine: POST json with cluster, name, ip_address, instance_type, tags (Optional)
+     - Delete machine by name: PUT json with cluster, name(machine name)
+     - Delete machines by tags: PUT json with tags<br>
+   Checkout the examples below:
+ 
+ ## Examples
+
+Create Cluster
+`curl --header "Content-Type: application/json"   --request POST   --data '{"name":"xyz","region": "ghjhg"}'   http://localhost:5000/api/manageClusters`
+
+Run this bash script to demo all methods
+
+
+
+   
+
+
 
 
 
