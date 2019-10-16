@@ -19,13 +19,22 @@ This API doesn't require any authentication right now
 ## End Points
 - http://localhost:5000/api/ + 
    - /manageClusters
-     - Add clusters: POST json with name, region
-     - Delete cluster PUT json with name
+     - Add clusters <br>
+     
+       `POST json with name, region`
+     - Delete cluster <br>
+       
+       `PUT json with name`
    - /manageMachines
-     - Add machine: POST json with cluster, name, ip_address, instance_type, tags (Optional)
-     - Delete machine by name: PUT json with cluster, name(machine name)
-     - Delete machines by tags: PUT json with tags<br>
-   Checkout the examples below:
+     - Add machine <br>
+     
+       `POST json with cluster, name, ip_address, instance_type, tags (Optional)`
+     - Delete machine by name <br>
+        
+        `PUT json with cluster, name(machine name)`
+     - Delete machines by tags <br>
+        
+        `PUT json with tags<br>`
  
  ## Examples
 
