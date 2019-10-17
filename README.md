@@ -1,5 +1,5 @@
 # flask_restful_api
-A RESTful API built with flask to manage cloud cluster and machines
+A RESTful API built with flask to manage cloud clusters and machines
 
 This is a take home assignment as part of an interview process: https://github.com/rorodata/careers/blob/master/backend2.md
 
